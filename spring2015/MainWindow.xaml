@@ -1,0 +1,13 @@
+﻿<Window x:Class="spring2015.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="测试WPF标题20150223" Height="350" Width="525" Icon="images/wwLogo.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="398*"/>
+            <ColumnDefinition Width="119*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button_xyfish" Content="我是按钮1" HorizontalAlignment="Left" Margin="74,72,0,0" VerticalAlignment="Top" Width="195" Height="87" Click="Button_Click"/>
+
+    </Grid>
+</Window>
